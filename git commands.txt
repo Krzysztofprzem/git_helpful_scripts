@@ -1,0 +1,4 @@
+git filter-branch --index-filter 'git rm --cached --ignore-unmatch file.txt' HEAD
+git push --force
+
+redownload repo
